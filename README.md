@@ -17,6 +17,15 @@ for example, to init only trees needed to build mako
 
     $ repo init -u https://github.com/OurROM/platform_manifest.git -b jb-mr2 -g all,-notdefault,mako,lge
 
+Init repo only for multiple devices
+
+    $ repo init -u https://github.com/OurROM/platform_manifest.git -b jb-mr2 -g all,-notdefault,<devicename1>,<devicename2>,<devicename3>,<vendorname1>,<vendorname2>,<vendorname3>
+
+for example, to init only trees needed to build mako and grouper
+
+    $ repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr2 -g all,-notdefault,mako,grouper,lge,asus
+
+
 sync repo
 
     $ repo sync -j16
