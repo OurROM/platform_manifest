@@ -197,8 +197,8 @@
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/kissfft" name="AOKP/external_kissfft" remote="aokp" revision="jb-mr2" />
-  <project path="external/koush/ion" name="koush/ion" remote="koush" revision="master"/>
-  <project path="external/koush/AndroidAsync" name="koush/AndroidAsync" remote="koush" revision="master"/>
+  <project path="external/koush/ion" name="koush/ion/ion" remote="koush" revision="master"/>
+  <project path="external/koush/AndroidAsync" name="koush/AndroidAsync/AndroidAsync" remote="koush" revision="master"/>
   <project path="external/koush/Superuser" name="AOKP/external_koush_Superuser" remote="aokp" revision="master" />
   <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
