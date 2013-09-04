@@ -402,7 +402,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb-mr2" />
+  <project path="packages/apps/ROMControl" name="OurROM/packages_apps_ROMControl" remote="or" revision="jb-mr2" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
@@ -492,7 +492,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 -->
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb-mr2" />
+  <project path="vendor/aokp" name="OurROM/vendor_aokp" remote="or" revision="jb-mr2" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr2" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,htc" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,lge" />
