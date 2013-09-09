@@ -200,7 +200,7 @@
   <project path="external/kissfft" name="AOKP/external_kissfft" remote="aokp" revision="jb-mr2" />
   <project path="external/koush/AndroidAsync" name="koush/AndroidAsync" remote="koush" revision="master"/>
   <project path="external/koush/ion" name="koush/ion" remote="koush" revision="master"/>
-  <project path="external/koush/Superuser" name="AOKP/external_koush_Superuser" remote="aokp" revision="master" />
+  <project path="external/koush/Superuser" name="koush/Superuser" remote="koush" revision="master" />
   <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
@@ -487,7 +487,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr2" groups="pdk" />
-<!--
+
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -498,7 +498,7 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
--->
+
   <project path="vendor/aokp" name="OurROM/vendor_aokp" remote="or" revision="jb-mr2" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr2" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,htc" />
@@ -519,7 +519,7 @@
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Focal" name="CyanogenMod/android_packages_apps_Focal" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="cm" revision="cm-10.2" />
 <!--   <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" remote="cm" revision ="cm-10.2" />  -->
 <!-- These are a collection of Build Scripts and Git Scripts... ALL SCRIPTS ARE DIRECTORY DEPENDENT.  I'm working on a Universal Solution.  -->
   <project path=".scripts" name="OurROM/.scripts" remote="or" revision="master" />
