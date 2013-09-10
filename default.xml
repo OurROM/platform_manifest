@@ -23,9 +23,9 @@
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
-  <default revision="refs/tags/android-4.3_r2.1"
+  <default revision="refs/tags/android-4.3_r2.2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="32" />
 
   <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr2" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
