@@ -25,9 +25,6 @@
   <remote  name="lab"
            fetch="https://github.com/"  />
 
-  <remote  name="neo"
-           fetch="https://github.com/"  />
-
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
@@ -44,7 +41,7 @@
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="DJL10-2/android_bootable_recovery" remote="dj" revision="DJL10.2" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.2" />
   <project path="cts" name="platform/cts" groups="cts"/>
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr2" />
   <project path="developers/build" name="platform/developers/build" />
@@ -145,7 +142,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="DJL10-2/android_external_bluetooth_bluedroid" remote="dj" revision="DJL10.2" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-10.2" />
@@ -310,7 +307,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="DJL10-2/android_frameworks_av" remote="dj" revision="DJL10.2" groups="pdk" />
+  <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr2" groups="pdk" />
   <project path="frameworks/base" name="OurROM/frameworks_base" remote="or" revision="jb-mr2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -350,7 +347,7 @@
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.2" groups="caf" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="DJL10-2/android_hardware_qcom_display-caf" remote="dj" revision="DJL10.2" groups="caf" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="cm" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="cm" revision="cm-10.2" groups="caf" />
