@@ -528,7 +528,7 @@
 <!-- START OurROM added Entries  -->
 
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Focal" name="CyanogenMod/android_packages_apps_Focal" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Focal" name="OurROM/packages_apps_Focal" remote="or" revision="jb-mr2" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="cm" revision="cm-10.1" />
 <!--   <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" remote="cm" revision ="cm-10.2" />  -->
