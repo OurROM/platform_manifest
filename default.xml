@@ -4,12 +4,6 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  
-  <remote  name="or"
-           fetch="https://github.com/" />
-           
-  <remote  name="koush"
-           fetch="https://github.com/" />           
 
   <remote  name="aokp"
            fetch="https://github.com/"
@@ -19,19 +13,15 @@
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
-  <remote  name="fk"
-           fetch="https://github.com/"  />
-
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
-
   <default revision="refs/tags/android-4.3_r3.1"
            remote="aosp"
-           sync-j="32" />
+           sync-j="4" />
 
-  <project path="build" name="OurROM/build" remote="or" revision="jb-mr2" groups="pdk">
+  <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr2" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"/>
@@ -70,7 +60,7 @@
   <project path="device/htc/msm8960-common" name="AOKP/device_htc_msm8960-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7,evita" />
   <project path="device/htc/s4-common" name="AOKP/device_htc_s4-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,htc,evita" />
   <project path="device/lge/iprj-common" name="AOKP/device_lge_iprj-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,p930,su640,vs920" />
-  <project path="device/lge/mako" name="OurROM/device_lge_mako" remote="or" revision="jb-mr2" groups="notdefault,device,mako" />
+  <project path="device/lge/mako" name="AOKP/device_lge_mako" remote="aokp" revision="jb-mr2" groups="notdefault,device,mako" />
   <project path="device/lge/p930" name="AOKP/device_lge_p930" remote="aokp" revision="jb-mr2" groups="notdefault,device,p930" />
   <project path="device/lge/su640" name="AOKP/device_lge_su640" remote="aokp" revision="jb-mr2" groups="notdefault,device,su640" />
   <project path="device/lge/vs920" name="AOKP/device_lge_vs920" remote="aokp" revision="jb-mr2" groups="notdefault,device,vs920" />
@@ -177,7 +167,6 @@
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
-  <project path="external/gson" name="CyanogenMod/android_external_gson" remote="cm" revision="cm-10.2" />  
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" />
@@ -203,10 +192,6 @@
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/kissfft" name="AOKP/external_kissfft" remote="aokp" revision="jb-mr2" />
-<!--  <project path="external/koush/AndroidAsync" name="koush/AndroidAsync" remote="koush" revision="master"/>
-  <project path="external/koush/ion" name="koush/ion" remote="koush" revision="master"/> -->
-  <project path="external/koush/Superuser" name="koush/Superuser" remote="koush" revision="master" />
-  <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
@@ -233,6 +218,8 @@
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
+  <project path="external/koush/Superuser" name="AOKP/external_koush_Superuser" remote="aokp" revision="master" />
+  <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="master" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
@@ -305,7 +292,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr2" groups="pdk" />
-  <project path="frameworks/base" name="OurROM/frameworks_base" remote="or" revision="jb-mr2" />
+  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb-mr2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -365,8 +352,6 @@
   <project path="kernel/htc/m7" name="AOKP/kernel_htc_m7" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,m7" />
   <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="cm" revision="cm-10.2" groups="notdefault,kernel,evita" />
   <project path="kernel/lge/iproj" name="CyanogenMod/lge-kernel-iproj" remote="cm" revision="cm-10.1" groups="notdefault,kernel,p930,su640,vs920" />
-  <project path="kernel/lge/mako" name="CyanogenMod/lge-kernel-mako" remote="cm" revision="cm-10.2" groups="notdefault,kernel,mako" />
-  <project path="kernel/franco/mako" name="franciscofranco/mako" remote="fk" revision="nightlies-4.3-JSS" groups="notdefault,kernel,mako" />
   <project path="kernel/motorola/omap4-common" name="CyanogenMod/android_kernel_motorola_omap4-common" remote="cm" revision="cm-10.1" groups="notdefault,kernel,solana,spyder,maserati,tyger,targa" />
   <project path="kernel/oppo/find5" name="AOKP/kernel_oppo_find5" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,find5" />
   <project path="kernel/samsung/aries" name="CyanogenMod/android_kernel_samsung_aries" remote="cm" revision="cm-10.2" groups="notdefault,kernel,vibrantmtd" />
@@ -415,9 +400,9 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/ROMControl" name="OurROM/packages_apps_ROMControl" remote="or" revision="jb-mr2" />
+  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr2" />
-  <project path="packages/apps/Settings" name="OurROM/packages_apps_Settings" remote="or" revision="jb-mr2" />
+  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -493,7 +478,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr2" groups="pdk" />
-
+<!--
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -504,8 +489,8 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-
-  <project path="vendor/aokp" name="OurROM/vendor_aokp" remote="or" revision="jb-mr2" />
+-->
+  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb-mr2" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr2" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,htc" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,lge" />
@@ -521,19 +506,5 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr2" />
 
-<!-- START OurROM added Entries  -->
-
-  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Focal" name="OurROM/packages_apps_Focal" remote="or" revision="jb-mr2" />
-  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="cm" revision="cm-10.1" />
-<!--   <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" remote="cm" revision ="cm-10.2" />  -->
-<!-- These are a collection of Build Scripts and Git Scripts... ALL SCRIPTS ARE DIRECTORY DEPENDENT.  I'm working on a Universal Solution.  -->
-  <project path=".scripts" name="OurROM/.scripts" remote="or" revision="master" />
-
-<!-- END OurROM added Entries  -->
-
-  <project path="platform_manifest" name="OurROM/platform_manifest" remote="or" revision="jb-mr2" />
-
-  
+  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr2" />
 </manifest>
