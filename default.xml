@@ -30,7 +30,7 @@
            remote="aosp"
            sync-j="32" />
 
-  <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr2" groups="pdk">
+  <project path="build" name="OurROM/build" remote="or" revision="jb-mr2" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"/>
