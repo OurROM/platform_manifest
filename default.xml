@@ -4,6 +4,12 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+  
+  <remote  name="or"
+           fetch="https://github.com/" />
+           
+  <remote  name="koush"
+           fetch="https://github.com/" />           
 
   <remote  name="aokp"
            fetch="https://github.com/"
@@ -13,13 +19,16 @@
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
+  <remote  name="fk"
+           fetch="https://github.com/"  />
+
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
   <default revision="refs/tags/android-4.3_r3.1"
            remote="aosp"
-           sync-j="4" />
+           sync-j="32" />
 
   <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr2" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -506,5 +515,19 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr2" />
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr2" />
+<!-- START OurROM added Entries  -->
+
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Focal" name="OurROM/packages_apps_Focal" remote="or" revision="jb-mr2" />
+  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="cm" revision="cm-10.1" />
+<!--   <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" remote="cm" revision ="cm-10.2" />  -->
+<!-- These are a collection of Build Scripts and Git Scripts... ALL SCRIPTS ARE DIRECTORY DEPENDENT.  I'm working on a Universal Solution.  -->
+  <project path=".scripts" name="OurROM/.scripts" remote="or" revision="master" />
+
+<!-- END OurROM added Entries  -->
+
+  <project path="platform_manifest" name="OurROM/platform_manifest" remote="or" revision="jb-mr2" />
+
+  
 </manifest>
