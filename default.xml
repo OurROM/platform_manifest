@@ -341,7 +341,7 @@
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" remote="aosp" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="AOKP/hardware_qcom_audio-caf" remote="aokp" revision="jb-mr2" groups="caf" />
   <project path="hardware/qcom/bt" name="AOKP/hardware_qcom_bt" remote="aokp" revision="jb-mr2" groups="qcom" />
-  <project path="hardware/qcom/display" name="AOKP/hardware/qcom/display" remote="aokp" revision="jb-mr2" groups="qcom" />
+  <project path="hardware/qcom/display" name="AOKP/hardware_qcom_display" remote="aokp" revision="jb-mr2" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="AOKP/hardware_qcom_display-caf" remote="aokp" revision="jb-mr2" groups="caf" />
   <project path="hardware/qcom/keymaster" name="AOKP/hardware_qcom_keymaster" remote="aokp" revision="jb-mr2" groups="qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" remote="aosp" groups="qcom" />
