@@ -205,7 +205,7 @@
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/kissfft" name="AOKP/external_kissfft" remote="aokp" revision="jb-mr2" />
   <project path="external/koush/Superuser" name="AOKP/external_koush_Superuser" remote="aokp" revision="jb-mr2" />
-  <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="master" />
+  <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="jb-mr2" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
@@ -338,13 +338,13 @@
   <project path="hardware/libhardware" name="AOKP/hardware_libhardware" remote="aokp" revision="jb-mr2" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="AOKP/hardware_libhardware_legacy" remote="aokp" revision="jb-mr2" groups="pdk" />
   <project path="hardware/msm7k" name="AOKP/hardware_msm7k" remote="aokp" revision="jb-mr2" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" remote="aosp" groups="qcom" />
+  <project path="hardware/qcom/audio" name="AOKP/hardware_qcom_audio" remote="aokp" revision="jb-mr2" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="AOKP/hardware_qcom_audio-caf" remote="aokp" revision="jb-mr2" groups="caf" />
   <project path="hardware/qcom/bt" name="AOKP/hardware_qcom_bt" remote="aokp" revision="jb-mr2" groups="qcom" />
   <project path="hardware/qcom/display" name="AOKP/hardware_qcom_display" remote="aokp" revision="jb-mr2" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="AOKP/hardware_qcom_display-caf" remote="aokp" revision="jb-mr2" groups="caf" />
   <project path="hardware/qcom/keymaster" name="AOKP/hardware_qcom_keymaster" remote="aokp" revision="jb-mr2" groups="qcom" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" remote="aosp" groups="qcom" />
+  <project path="hardware/qcom/media" name="AOKP/hardware_qcom_media" remote="aokp" revision="jb-mr2" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="AOKP/hardware_qcom_media-caf" remote="aokp" revision="jb-mr2" groups="caf" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr2" />
@@ -492,7 +492,6 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr2" groups="pdk" />
-
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -503,7 +502,6 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-
   <project path="vendor/aokp" name="OurROM/vendor_aokp" remote="or" revision="jb-mr2" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr2" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,htc" />
@@ -526,7 +524,6 @@
   <project path="packages/apps/Focal" name="xplodwild/android_packages_apps_Focal" remote="xp" revision="master" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="cm" revision="cm-10.1" />
-<!--   <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" remote="cm" revision ="cm-10.2" />  -->
 <!-- These are a collection of Build Scripts and Git Scripts... ALL SCRIPTS ARE DIRECTORY DEPENDENT.  I'm working on a Universal Solution.  -->
   <project path=".scripts" name="OurROM/.scripts" remote="or" revision="master" />
 
