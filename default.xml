@@ -543,7 +543,7 @@
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr2" groups="pdk" />
 
 <!-- Tools -->
-<!--  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
+  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
@@ -552,7 +552,7 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="notdefault,tools" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
-  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" /> -->
+  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
 <!-- Vendor -->
   <project path="vendor/aokp" name="OurROM/vendor_aokp" remote="or" revision="jb-mr2" />
