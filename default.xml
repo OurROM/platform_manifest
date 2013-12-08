@@ -54,7 +54,7 @@
   <project path="build" name="OurROM/build" remote="or" revision="kitkat" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="platform/art" />
+  <project path="art" name="AOKP/art" remote="aokp" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
