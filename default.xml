@@ -71,13 +71,19 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common"  groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-  <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
-  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
+  <project path="device/generic/mips" name="device/generic/mips" groups="pdk,notdefault" />
+  <project path="device/generic/x86" name="device/generic/x86" groups="pdk,notdefault" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
-  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />
-  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
+  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk,notdefault" />
+  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk,notdefault" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="notdefault,device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="notdefault,device" />
+  <project path="device/htc/m7-common" name="AOKP/device_htc_m7-common" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7att,m7spr,m7tmo,m7ul" />
+  <project path="device/htc/m7att" name="AOKP/device_htc_m7att" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7att" />
+  <project path="device/htc/m7spr" name="AOKP/device_htc_m7spr" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7spr" />
+  <project path="device/htc/m7tmo" name="AOKP/device_htc_m7tmo" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7tmo" />
+  <project path="device/htc/m7ul" name="AOKP/device_htc_m7ul" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7ul" />
+  <project path="device/htc/msm8960-common" name="AOKP/device_htc_msm8960-common" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7att,m7spr,m7tmo,m7ul,evita" />
   <project path="device/lge/hammerhead" name="AOKP/device_lge_hammerhead" remote="aokp" revision="kitkat" groups="notdefault,device,hammerhead" />
   <project path="device/lge/mako" name="AOKP/device_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,device,mako" />
   <project path="device/motorola/msm8960dt-common" name="AOKP/device_motorola_msm8960dt-common" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1053,xt1060" />
@@ -100,9 +106,16 @@
   <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="kitkat" groups="notdefault,device,sony" />
   <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
   <project path="device/sony/fusion3-common" name="AOKP/device_sony_fusion3-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
+  <project path="device/sony/dogo" name="AOKP/device_sony_dogo" remote="aokp" revision="kitkat" groups="notdefault,device,dogo" />
+  <project path="device/sony/mint" name="AOKP/device_sony_mint" remote="aokp" revision="kitkat" groups="notdefault,device,mint" />
+  <project path="device/sony/odin" name="AOKP/device_sony_odin" remote="aokp" revision="kitkat" groups="notdefault,device,odin" />
   <project path="device/sony/yuga" name="AOKP/device_sony_yuga" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
+  <project path="device/sony/pollux" name="AOKP/device_sony_pollux" remote="aokp" revision="kitkat" groups="notdefault,device,pollux" />
+  <project path="device/sony/pollux_windy" name="AOKP/device_sony_pollux_windy" remote="aokp" revision="kitkat" groups="notdefault,device,pollux" />
+  <project path="device/sony/pollux-common" name="AOKP/device_sony_pollux-common" remote="aokp" revision="kitkat" groups="notdefault,device,pollux" />
   <project path="device/sony/blue-common" name="AOKP/device_sony_blue-common" remote="aokp" revision="kitkat" groups="notdefault,device,tsubasa" />
   <project path="device/sony/tsubasa" name="AOKP/device_sony_tsubasa" remote="aokp" revision="kitkat" groups="notdefault,device,tsubasa" />
+
 
 <!-- Docs -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -154,7 +167,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" />
+  <project path="external/clang" name="AOKP/external_clang" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -262,7 +275,7 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="platform/external/openssh" />
+  <project path="external/openssh" name="AOKP/external_openssh" remote="aokp" revision="kitkat" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pigz" name="AOKP/external_pigz" remote="aokp" revision="kitkat" />
@@ -347,7 +360,6 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="AOKP/hardware_libhardware" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="AOKP/hardware_libhardware_legacy" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="hardware/msm7k" name="AOKP/hardware_msm7k" remote="aokp" revision="kitkat" />
   <project path="hardware/qcom/audio" name="AOKP/hardware_qcom_audio" remote="aokp" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="AOKP/hardware_qcom_audio-caf" remote="aokp" revision="kitkat" groups="caf" />
   <project path="hardware/qcom/bt" name="AOKP/hardware_qcom_bt" remote="aokp" revision="kitkat" groups="qcom" />
@@ -375,7 +387,8 @@
 <!-- Kernel -->
   <project path="kernel/asus/flo" name="AOKP/kernel_asus_flo" remote="aokp" revision="kitkat" groups="notdefault,kernel,flo" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-10.2" groups="notdefault,kernel,grouper" />
-  <project path="kernel/lge/hammerhead" name="kernel/msm" revision="android-msm-hammerhead-3.4-kk-r1" groups="notdefault,kernel,hammerhead" />
+  <project path="kernel/htc/m7" name="AOKP/kernel_htc_m7" remote="aokp" revision="kitkat" groups="notdefault,kernel,m7,m7att,m7spr,m7tmo,m7ul" />
+  <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="cm"  revision="cm-11.0" groups="notdefault,kernel,hammerhead" />
   <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,kernel,mako" />
   <project path="kernel/motorola/msm8960dt" name="AOKP/kernel_motorola_msm8960dt" remote="aokp" revision="kitkat" groups="notdefault,kernel,ghost,xt1053,xt1060" />
   <project path="kernel/samsung/d2" name="AOKP/kernel_samsung_d2" remote="aokp" revision="kitkat" groups="notdefault,kernel,d2,d2att,d2tmo,d2usc,d2vzw" />
@@ -410,9 +423,9 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="notdefault,legacypackages" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
+  <project path="packages/apps/Gallery2" name="AOKP/packages_apps_Gallery2" remote="aokp" revision="kitkat" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
+  <project path="packages/apps/InCallUI" name="AOKP/packages_apps_InCallUI" remote="aokp" revision="kitkat" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="notdefault,legacypackages" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
@@ -428,7 +441,9 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="notdefault,legacypackages" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="notdefault,legacypackages" />
+
 <!--  <project path="packages/apps/ROMControl" name="OurROM/packages_apps_ROMControl" remote="or" revision="kitkat"/> -->
+
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
@@ -476,28 +491,27 @@
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" />
   <project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin" />
-  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips" />
-  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86" />
+  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips,notdefault" />
+  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86,notdefault" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" />
   <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" />
-  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips" />
-  <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" />
+  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,notdefault" />
+  <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86,notdefault" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse"  />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" remote="aosp" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" remote="aosp" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86" />
-
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86,notdefault" />
   <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" />
   <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips,notdefault" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips,notdefault" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86,notdefault" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86,notdefault" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
@@ -505,11 +519,11 @@
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips,notdefault" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips,notdefault" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86,notdefault" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86,notdefault" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86,notdefault" />
   <project path="prebuilts/misc" name="AOKP/prebuilts_misc" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
@@ -545,12 +559,12 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
 <!-- Vendor -->
-  <!-- <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
-  <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" /> -->
+  <!-- <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" /> -->
+  <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" />
   <project path="vendor/aokp" name="OurROM/vendor_aokp" remote="or" revision="kitkat" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="kitkat" groups="notdefault,vendor,lge" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="kitkat" groups="notdefault,vendor,motorola" />
-  <!-- <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="kitkat" groups="notdefault,vendor,oppo" /> -->
+  <<project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="kitkat" groups="notdefault,vendor,oppo" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="kitkat" groups="notdefault,vendor,samsung" />
   <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="kitkat" groups="notdefault,vendor,sony" />
   <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="kitkat" groups="notdefault,vendor,asus" />
