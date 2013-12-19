@@ -100,6 +100,10 @@
   <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
   <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw,hercules" />
   <project path="device/samsung/jf-common" name="AOKP/device_samsung_jf-common" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jflteatt,jfltecri,jfltecsp,jfltetmo,jflteusc,jfltevzw" />
+  <project path="device/samsung/jfltecsp" name="AOKP/device_samsung_jfltecsp" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltecsp" />
+  <project path="device/samsung/jfltecri" name="AOKP/device_samsung_jfltecri" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltecri" />
+  <project path="device/samsung/jfltespr" name="AOKP/device_samsung_jfltespr" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltespr" />
+  <project path="device/samsung/jfltetmo" name="AOKP/device_samsung_jfltetmo" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltetmo" />
   <project path="device/samsung/jfltevzw" name="AOKP/device_samsung_jfltevzw" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltevzw" />
   <project path="device/samsung/jflteusc" name="AOKP/device_samsung_jflteusc" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jflteusc" />
   <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="kitkat" groups="notdefault,device,toro" />
@@ -413,7 +417,7 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="notdefault,legacypackages" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
+  <project path="packages/apps/Camera2" name="AOKP/packages_apps_Camera2" remote="aokp" revision="kitkat" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
@@ -455,7 +459,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="AOKP/packages_inputmethods_LatinIME" remote="aokp" revision="kitkat" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
