@@ -598,7 +598,7 @@
 <!-- <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="cm" revision="cm-11.0" /> -->
 <!-- These are a collection of Build Scripts and Git Scripts... ALL SCRIPTS ARE DIRECTORY DEPENDENT.  I'm working on a Universal Solution.  -->
   <project path=".scripts" name="OurROM/.scripts" remote="or" revision="master" />
-  <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" />
+
 
 <!-- Manifest -->
   <project path="platform_manifest" name="OurROM/platform_manifest" remote="or" revision="kitkat" />
