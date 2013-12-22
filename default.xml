@@ -427,7 +427,7 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="AOKP/packages_apps_Bluetooth" remote="aokp" revision="kitkat" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
+  <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="kitkat" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="notdefault,legacypackages" />
@@ -459,9 +459,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="notdefault,legacypackages" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="notdefault,legacypackages" />
-
-<!--  <project path="packages/apps/ROMControl" name="OurROM/packages_apps_ROMControl" remote="or" revision="kitkat"/> -->
-
+  <project path="packages/apps/ROMControl" name="OurROM/packages_apps_ROMControl" remote="or" revision="kitkat"/>
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
@@ -576,8 +574,10 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
+
 <!-- Vendor -->
-  <!-- <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" /> -->
+  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="kitkat" />
+  <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" />
   <project path="vendor/aokp" name="OurROM/vendor_aokp" remote="or" revision="kitkat" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="kitkat" groups="notdefault,vendor,lge" />
