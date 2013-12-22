@@ -576,7 +576,7 @@
 
 
 <!-- Vendor -->
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="kitkat" />
+  <project path="vendor/aokp" name="OurROM/vendor_aokp" remote="or" revision="kitkat" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" />
   <project path="vendor/aokp" name="OurROM/vendor_aokp" remote="or" revision="kitkat" />
