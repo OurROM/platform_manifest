@@ -361,7 +361,7 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
-  <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks/opt/net/voip" remote="cm" revision="cm-11.0" groups="pdk" /> />
+  <project path="frameworks/opt/net/voip" name="AOKP/frameworks/opt/net/voip" remote="aokp" revision="kitkat" groups="pdk" /> />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="AOKP/frameworks_opt_telephony" remote="aokp" revision="kitkat" groups="pdk" />
