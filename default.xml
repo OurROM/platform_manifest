@@ -591,6 +591,7 @@
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="kitkat" groups="pdk" />
 
 <!-- Tools -->
+<!--
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -602,7 +603,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-
+-->
 
 <!-- Vendor -->
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
