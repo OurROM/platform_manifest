@@ -621,7 +621,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-11.0" />
 
 <!-- OurROM -->
-  <project path="external/Focal" name="xplodwild/android_external_Focal" remote="xp" revision="master" />
+<!--  <project path="external/Focal" name="xplodwild/android_external_Focal" remote="xp" revision="master" />  -->
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Focal" name="xplodwild/android_packages_apps_Focal" remote="xp" revision="master" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-11.0" />
