@@ -521,7 +521,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" groups="notdefault" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" groups="notdefault" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" groups="notdefault" />
-  <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" groups="notdefault" />
+  <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" />
 
 <!-- Pdk -->
   <project path="pdk" name="platform/pdk" groups="pdk" />
