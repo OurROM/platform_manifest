@@ -45,7 +45,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="bootable/recovery-cwm" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" remote="cm" revision="cm-11.0" />
-  <project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="omni" revision="android-4.4">
+  <project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="omni" revision="android-4.4" />
 <!--  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" /> -->
 
 
