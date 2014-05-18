@@ -17,7 +17,7 @@
 
   <remote  name="cm"
            fetch="https://github.com/"
-           review="review.cyanogenmod.com" />
+           review="review.cyanogenmod.org" />
 
   <remote  name="faux"
            fetch="https://github.com/"  />
@@ -25,9 +25,8 @@
   <remote  name="xp"
            fetch="https://github.com/"  />
 
-
   <remote name="omni"
-           fetch="https://github.com/"
+           fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
   <default revision="refs/tags/android-4.4.2_r2"
@@ -43,7 +42,11 @@
 <!-- Bootable -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="bootable/recovery-cwm" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" />
+  <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" remote="cm" revision="cm-11.0" />
+  <project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="omni" revision="android-4.4">
+<!--  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" /> -->
 
 
 <!-- Cts -->
@@ -93,8 +96,8 @@
   <project path="device/lge/g2-common" name="AOKP/device_lge_g2-common" remote="aokp" revision="kitkat" groups="notdefault,device,g2,d800,d801,d802,ls980,vs980" />
   <project path="device/lge/hammerhead" name="AOKP/device_lge_hammerhead" remote="aokp" revision="kitkat" groups="notdefault,device,hammerhead" />
   <project path="device/lge/ls980" name="AOKP/device_lge_ls980" remote="aokp" revision="kitkat" groups="notdefault,device,g2,ls980" />
-<!--  <project path="device/lge/mako" name="AOKP/device_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,device,mako" />  -->
-  <project path="device/lge/mako" name="OurROM/device_lge_mako" remote="or" revision="kitkat" groups="notdefault,device,mako" />
+  <project path="device/lge/mako" name="AOKP/device_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,device,mako" />
+<!--  <project path="device/lge/mako" name="OurROM/device_lge_mako" remote="or" revision="kitkat" groups="notdefault,device,mako" /> -->
   <project path="device/lge/v500" name="AOKP/device_lge_v500" remote="aokp" revision="kitkat" groups="notdefault,device,v500" />
   <project path="device/lge/vs980" name="AOKP/device_lge_vs980" remote="aokp" revision="kitkat" groups="notdefault,device,g2,vs980" />
   <project path="device/motorola/msm8960dt-common" name="AOKP/device_motorola_msm8960dt-common" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1053,xt1060" />
