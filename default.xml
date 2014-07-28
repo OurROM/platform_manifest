@@ -366,7 +366,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
 
 <!-- Frameworks -->
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="frameworks/base" name="OurROM/frameworks_base" remote="or" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
