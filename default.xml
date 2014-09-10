@@ -108,23 +108,32 @@
   <project path="device/lge/vs920" name="AOKP/device_lge_vs920" remote="aokp" revision="kitkat" groups="notdefault,device,iproj,vs920" />
   <project path="device/lge/vs980" name="AOKP/device_lge_vs980" remote="aokp" revision="kitkat" groups="notdefault,device,g2,vs980" />
   <project path="device/motorola/qcom-common" name="AOKP/device_motorola_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,msm8960dt" />
+  <project path="device/htc/m8" name="AOKP/device_htc_m8" remote="aokp" revision="kitkat" groups="notdefault,device,m8" />
   <project path="device/motorola/moto_msm8960dt" name="AOKP/device_motorola_moto_msm8960dt" remote="aokp" revision="kitkat" groups="notdefault,device,msm8960dt" />
-  <project path="device/oppo/common" name="AOKP/device_oppo_common" remote="aokp" revision="kitkat" groups="notdefault,device,find5,n1" />
+  <project path="device/oneplus/bacon" name="AOKP/device_oneplus_bacon" remote="aokp" revision="kitkat" groups="notdefault,device,bacon" />
+  <project path="device/oppo/common" name="AOKP/device_oppo_common" remote="aokp" revision="kitkat" groups="notdefault,device,find5,find7,n1,bacon" />
   <project path="device/oppo/find5" name="AOKP/device_oppo_find5" remote="aokp" revision="kitkat" groups="notdefault,device,find5" />
+  <project path="device/oppo/find7" name="AOKP/device_oppo_find7" remote="aokp" revision="kitkat" groups="notdefault,device,find7" />
+  <project path="device/oppo/msm8974-common" name="AOKP/device_oppo_msm8974-common" remote="aokp" revision="kitkat" groups="notdefault,device,find7,bacon" />
   <project path="device/oppo/n1" name="AOKP/device_oppo_n1" remote="aokp" revision="kitkat" groups="notdefault,device,n1" />
   <project path="device/oppo/apq8064-common" name="AOKP/device_oppo_apq8064-common" remote="aokp" revision="kitkat" groups="notdefault,device,n1" />
-  <project path="device/qcom/common" name="AOKP/device_qcom_common" remote="aokp" revision="kitkat" groups="notdefault,device,g2,d800,d801,d802,ls980,sony,vs980,hlte,m7,m7vzw,m7spr" />
+  <project path="device/qcom/common" name="AOKP/device_qcom_common" remote="aokp" revision="kitkat" groups="notdefault,device,g2,d800,d801,d802,ls980,sony,vs980,hlte,m7,m7vzw,m7spr,find7,m8" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/d2lte" name="AOKP/device_samsung_d2lte" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2lte" />
   <project path="device/samsung/hlte" name="AOKP/device_samsung_hlte" remote="aokp" revision="kitkat" groups="notdefault,device,hlte" />
   <project path="device/samsung/i605" name="AOKP/device_samsung_i605" remote="aokp" revision="kitkat" groups="notdefault,device,i605" />
   <project path="device/samsung/i9300" name="AOKP/device_samsung_i9300" remote="aokp" revision="kitkat" groups="notdefault,device,i9300" />
+  <project path="device/samsung/i9500" name="AOKP/device_samsung_i9500" remote="aokp" revision="kitkat" groups="notdefault,device,i9500" />
   <project path="device/samsung/jflte" name="AOKP/device_samsung_jflte" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jflte" />
   <project path="device/samsung/l900" name="AOKP/device_samsung_l900" remote="aokp" revision="kitkat" groups="notdefault,device,l900" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="aokp" revision="kitkat" groups="notdefault,device,maguro" />
   <project path="device/samsung/manta" name="AOKP/device_samsung_manta" remote="aokp" revision="kitkat" groups="notdefault,device,manta" />
-  <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2lte,jf,jflte,hlte" />
+  <project path="device/samsung/msm8930-common" name="AOKP/device_samsung_msm8930-common" remote="aokp" revision="kitkat" groups="notdefault,device,serranoltexx" />
+  <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2lte,jf,jflte" />
+  <project path="device/samsung/msm8974-common" name="AOKP/device_samsung_msm8974-common" remote="aokp" revision="kitkat" groups="notdefault,device,hlte" />
   <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2lte,jf,jflte,hercules,hlte" />
+  <project path="device/samsung/serranoltexx" name="AOKP/device_samsung_serranoltexx" remote="aokp" revision="kitkat" groups="notdefault,device,serranoltexx" />
+  <project path="device/samsung/serrano-common" name="AOKP/device_samsung_serrano-common" remote="aokp" revision="kitkat" groups="notdefault,device,serranoltexx" />
   <project path="device/samsung/smdk4412-common" name="AOKP/device_samsung_smdk4412-common" remote="aokp" revision="kitkat" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-11.0" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
   <project path="device/samsung/t0lte" name="AOKP/device_samsung_t0lte" remote="aokp" revision="kitkat" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
@@ -132,32 +141,44 @@
   <project path="device/samsung/t0ltetmo" name="AOKP/device_samsung_t0ltetmo" remote="aokp" revision="kitkat" groups="notdefault,device,t0ltetmo" />
   <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="kitkat" groups="notdefault,device,toro" />
   <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="kitkat" groups="notdefault,device,maguro,toro,toroplus" />
+  <project path="device/semc/msm7x30-common" name="AOKP/device_semc_msm7x30-common" remote="aokp" revision="kitkat" groups="notdefault,device,anzu,coconut,haida,hallon,iyokan,mango,satsuma,smultron,urushi" />
+  <project path="device/semc/mogami-common" name="AOKP/device_semc_mogami-common" remote="aokp" revision="kitkat" groups="notdefault,device,anzu,coconut,haida,hallon,iyokan,mango,satsuma,smultron,urushi" />
+  <project path="device/semc/anzu" name="AOKP/device_semc_anzu" remote="aokp" revision="kitkat" groups="notdefault,device,anzu" />
+  <project path="device/semc/coconut" name="AOKP/device_semc_coconut" remote="aokp" revision="kitkat" groups="notdefault,device,coconut" />
+  <project path="device/semc/haida" name="AOKP/device_semc_haida" remote="aokp" revision="kitkat" groups="notdefault,device,haida" />
+  <project path="device/semc/hallon" name="AOKP/device_semc_hallon" remote="aokp" revision="kitkat" groups="notdefault,device,hallon" />
+  <project path="device/semc/iyokan" name="AOKP/device_semc_iyokan" remote="aokp" revision="kitkat" groups="notdefault,device,iyokan" />
+  <project path="device/semc/mango" name="AOKP/device_semc_mango" remote="aokp" revision="kitkat" groups="notdefault,device,mango" />
+  <project path="device/semc/satsuma" name="AOKP/device_semc_satsuma" remote="aokp" revision="kitkat" groups="notdefault,device,satsuma" />
+  <project path="device/semc/smultron" name="AOKP/device_semc_smultron" remote="aokp" revision="kitkat" groups="notdefault,device,smultron" />
+  <project path="device/semc/urushi" name="AOKP/device_semc_urushi" remote="aokp" revision="kitkat" groups="notdefault,device,urushi" />
   <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="kitkat" groups="notdefault,device,sony" />
-  <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
-  <project path="device/sony/rhine-common" name="AOKP/device_sony_rhine-common" remote="aokp" revision="kitkat" groups="notdefault,device,honami,togari" />
+  <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,sony" />
+  <project path="device/sony/shinano-common" name="AOKP/device_sony_shinano-common" remote="aokp" revision="kitkat" groups="notdefault,device,sirius" />
+  <project path="device/sony/sirius" name="AOKP/device_sony_sirius" remote="aokp" revision="kitkat" groups="notdefault,device,sirius" />
+  <project path="device/sony/rhine-common" name="AOKP/device_sony_rhine-common" remote="aokp" revision="kitkat" groups="notdefault,device,honami,togari,amami" />
   <project path="device/sony/amami" name="AOKP/device_sony_amami" remote="aokp" revision="kitkat" groups="notdefault,device,amami" />
   <project path="device/sony/honami" name="AOKP/device_sony_honami" remote="aokp" revision="kitkat" groups="notdefault,device,honami" />
   <project path="device/sony/togari" name="AOKP/device_sony_togari" remote="aokp" revision="kitkat" groups="notdefault,device,togari" />
-  <project path="device/sony/fusion3-common" name="AOKP/device_sony_fusion3-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
+  <project path="device/sony/fusion3-common" name="AOKP/device_sony_fusion3-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga,odin,pollux,dogo" />
   <project path="device/sony/dogo" name="AOKP/device_sony_dogo" remote="aokp" revision="kitkat" groups="notdefault,device,dogo" />
-  <project path="device/sony/mint" name="AOKP/device_sony_mint" remote="aokp" revision="kitkat" groups="notdefault,device,mint" />
   <project path="device/sony/odin" name="AOKP/device_sony_odin" remote="aokp" revision="kitkat" groups="notdefault,device,odin" />
   <project path="device/sony/yuga" name="AOKP/device_sony_yuga" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
   <project path="device/sony/pollux" name="AOKP/device_sony_pollux" remote="aokp" revision="kitkat" groups="notdefault,device,pollux" />
   <project path="device/sony/pollux_windy" name="AOKP/device_sony_pollux_windy" remote="aokp" revision="kitkat" groups="notdefault,device,pollux" />
   <project path="device/sony/pollux-common" name="AOKP/device_sony_pollux-common" remote="aokp" revision="kitkat" groups="notdefault,device,pollux" />
-  <project path="device/sony/blue-common" name="AOKP/device_sony_blue-common" remote="aokp" revision="kitkat" groups="notdefault,device,tsubasa" />
+  <project path="device/sony/blue-common" name="AOKP/device_sony_blue-common" remote="aokp" revision="kitkat" groups="notdefault,device,tsubasa,mint" />
   <project path="device/sony/tsubasa" name="AOKP/device_sony_tsubasa" remote="aokp" revision="kitkat" groups="notdefault,device,tsubasa" />
-
-<!-- Docs -->
+  <project path="device/sony/mint" name="AOKP/device_sony_mint" remote="aokp" revision="kitkat" groups="notdefault,device,mint" />
+  <project path="device/sony/huashan" name="AOKP/device_sony_huashan" remote="aokp" revision="kitkat" groups="notdefault,device,huashan" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
-
-
-<!-- External -->
   <project path="external/aac" name="CyanogenMod/android_external_aac" remote="cm" revision="cm-11.0" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" remote="cm" revision="cm-11.0" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="cm" revision="cm-11.0" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="cm" revision="cm-11.0" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="cm" revision="cm-11.0" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
   <project path="external/apache-http" name="platform/external/apache-http" />
@@ -267,7 +288,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nci" name="AOKP/external_libnfc-nci" remote="aokp" revision="kitkat" groups="pdk"/>
+  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="cm" revision="cm-11.0" groups="pdk"/>
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" />
@@ -278,7 +299,7 @@
   <project path="external/libselinux" name="AOKP/external_libselinux" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/libsepol" name="AOKP/external_libsepol" remote="aokp" revision="kitkat" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="cm" revision="cm-11.0" />
-  <project path="external/libssh2" name="platform/external/libssh2" /> 
+  <project path="external/libssh2" name="platform/external/libssh2" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" remote="cm" revision="cm-11.0" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
@@ -438,29 +459,33 @@
 <!-- Kernel -->
   <project path="kernel/asus/flo" name="AOKP/kernel_asus_flo" remote="aokp" revision="kitkat" groups="notdefault,kernel,flo" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-11.0" groups="notdefault,kernel,grouper" />
+  <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="cm" revision="cm-11.0" groups="notdefault,kernel,flo,deb" />
   <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="cm" revision="cm-11.0" groups="notdefault,kernel,m7,m7spr,m7vzw" />
+  <project path="kernel/htc/msm8974" name="CyanogenMod/android_kernel_htc_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,m8" />
   <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="cm"  revision="cm-11.0" groups="notdefault,kernel,hammerhead" />
   <project path="kernel/lge/gproj" name="CyanogenMod/lge-kernel-gproj" remote="cm" revision="cm-11.0" groups="notdefault,kernel,gproj,e980" />
   <project path="kernel/lge/iproj" name="CyanogenMod/lge-kernel-iproj" remote="cm" revision="cm-11.0" groups="notdefault,kernel,iproj,p930,vs920" />
   <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,kernel,mako" />
-  <project path="kernel/faux/mako" name="faux123/mako" remote="faux" revision="kk_mr1" groups="notdefault,kernel,faux" />
   <project path="kernel/lge/msm8974" name="CyanogenMod/android_kernel_lge_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,g2,d800,d801,d802,ls980,vs980" />
   <project path="kernel/lge/v500" name="CyanogenMod/android_kernel_lge_v500" remote="cm" revision="cm-11.0" groups="notdefault,kernel,v500" />
   <project path="kernel/motorola/msm8960dt-common" name="CyanogenMod/android_kernel_motorola_msm8960dt-common" remote="cm" revision="cm-11.0" groups="notdefault,kernel,msm8960dt" />
+  <project path="kernel/oneplus/msm8974" name="CyanogenMod/android_kernel_oneplus_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,find7,bacon" />
   <project path="kernel/oppo/find5" name="CyanogenMod/android_kernel_oppo_find5" remote="cm" revision="cm-11.0" groups="notdefault,kernel,find5" />
   <project path="kernel/oppo/n1" name="CyanogenMod/android_kernel_oppo_n1" remote="cm" revision="cm-11.0" groups="notdefault,kernel,n1" />
   <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="cm" revision="cm-11.0" groups="notdefault,kernel,d2,d2lte" />
-  <project path="kernel/samsung/exynos5410" name="AOKP/kernel_samsung_exynos5410" remote="aokp" revision="kitkat" groups="notdefault,kernel,i9500" />
+  <project path="kernel/samsung/exynos5410" name="CyanogenMod/android_kernel_samsung_exynos5410" remote="cm" revision="cm-11.0" groups="notdefault,kernel,i9500" />
   <project path="kernel/samsung/hlte" name="CyanogenMod/android_kernel_samsung_hlte" remote="cm" revision="cm-11.0" groups="notdefault,kernel,hlte,hltetmo" />
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="cm" revision="cm-11.0" groups="notdefault,kernel,jf,jflte" />
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="cm" revision="cm-11.0" groups="notdefault,kernel,manta" />
+  <project path="kernel/samsung/msm8930-common" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="cm" revision="cm-11.0" groups="notdefault,kernel,serranoltexx" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="omni" revision="android-4.4" groups="notdefault,kernel,t0lte,t0lteatt,t0ltetmo,i605,i9300,l900" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="cm" revision="cm-11.0" groups="notdefault,kernel,maguro,toro,toroplus" />
-  <project path="kernel/sony/apq8064" name="AOKP/kernel_sony_apq8064" remote="aokp" revision="kitkat" groups="notdefault,kernel,yuga,odin" />
+  <project path="kernel/semc/msm7x30" name="AOKP/kernel_semc_msm7x30" remote="aokp" revision="kitkat" groups="notdefault,kernel,anzu,coconut,haida,hallon,iyokan,mango,satsuma,smultron,urushi" />
+  <project path="kernel/sony/apq8064" name="AOKP/kernel_sony_apq8064" remote="aokp" revision="kitkat" groups="notdefault,kernel,yuga,odin,dogo,pollux" />
   <project path="kernel/sony/msm8x60" name="AOKP/kernel_sony_msm8x60" remote="aokp" revision="kitkat" groups="notdefault,kernel,tsubasa,mint" />
   <project path="kernel/sony/msm8960t" name="AOKP/kernel_sony_msm8960t" remote="aokp" revision="kitkat" groups="notdefault,kernel,huashan" />
-  <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,honami,togari" />
-
+  <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,honami,togari,amami" />
+  <project path="kernel/sony/msm8974ab" name="AOKP/kernel_sony_msm8974ab" remote="aokp" revision="kitkat" groups="notdefault,kernel,sirius" />
 <!-- Lib -->
   <project path="libcore" name="AOKP/libcore" remote="aokp" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
@@ -641,7 +666,7 @@
   <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="kitkat" groups="notdefault,vendor,oppo" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="kitkat" groups="notdefault,vendor,samsung" />
   <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="kitkat" groups="notdefault,vendor,sony" />
-
+  <project path="jenkins" name="AOKP/jenkins" remote="aokp" revision="kitkat" />
 
 
 <!--  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-11.0" />
